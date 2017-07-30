@@ -1,0 +1,45 @@
+comandos terminal mac:
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+pwd							  # print working directory
+ls							  # list the files in this directory
+ls -a 						  # list the files in this directory including the invisible files
+
+
+git log                       # mostra os commits de cada .git
+git log --stat 				  # mostra o quanto cada commit alterou o repositorio
+git help <command>			  # mostra ajuda sobre o comando por ex.: (git help diff)
+git init                      # inicializa um .git no diretório
+git status					  # mostra os arquivos que foram alterados desde o ultimo commit ou que 							    serão alterados.
+git add						  # adiciona os arquivos a serem alterados na 'staging area', a 										serem 'commitados'
+
+
+Reflections: 
+
+-Como a visualizacao de um diff entre duas versoes de um arquivo ajuda voce a ver o bug que foi introduzido?
+
+O diff pode te mostrar onde está a diferença entre os dois arquivos.
+
+-Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+Pode ajudar a comparar versoes diferentes do programa. Encontrar erros e traçar um histórico de trabalho.
+
+-Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+Os prós sao poder salvar de tempo em tempos as versoes evitando o esquecimento.
+Os contras sao nao conseguir acessar as versoes caso nao tenha internet.
+
+-Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+Pois o git foi feito especialmente para programadores enquanto o google trata textos richtext.
+
+-Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+O comando git log mostra todos os commits do repositorio.
+O comando git diff compara a versao (commit) desejado com a versao desejada. Lembrando que a versao mais recente está mais para cima da lista.
+
+-De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+O controle git checkout pode destacar um commit para que possamos restaurar uma versao anterior, voltando o documento para uma versao escolhida.
+Assim podemos achar qual commit que tinha o bug. Possibilita explorar e arriscar mais ao desenvolver um programa pois sabe-se que podemos voltar a uma versao anterior facilmente.
