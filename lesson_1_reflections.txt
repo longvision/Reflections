@@ -15,6 +15,12 @@ git status					  # mostra os arquivos que foram alterados desde o ultimo commit 
 git add						  # adiciona os arquivos a serem alterados na 'staging area', a 										serem 'commitados'
 
 git remote          #create a remote repository on the computer to interact with git hub
+git remote add origin 'SSH(git@github.com:longvision/repositoryName.git' $creates a remote on the computer.
+
+git push remoteName branchName  #send the changes to the branch from local to github
+
+
+
 Reflections: 
 
 -Como a visualizacao de um diff entre duas versoes de um arquivo ajuda voce a ver o bug que foi introduzido?
